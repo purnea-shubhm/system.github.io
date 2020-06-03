@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>heading 2</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="Css/Kfms_style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<div>
+<table>
+<tr>
+        <td>
+            <img src="images/logo.png" width="60%" height="40%"/>
+</td>
+        <td>
+            <h3 style="padding-right:100px;padding-top:50px; color:blue; background:url(koala.jpg); font-size:70px; border-radius:80px 0px 80px 0px; overflow:hidden; text-shadow:black 4px 6px 7px;">JAIPUR NATIONAL UNIVERSITY</h3>
+        </td>
+    </tr>
+</table>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <!--<a href="index.jsp"></a>-->
+    <li><a href="about.html">About Us</a></li>
+    <li> <a href="visitors.html">VISITORS ENTRY </a></li>
+    <li><a href="admin.html">Admin Signin</a></li>
+    <li><a href="feedback.html">feedback form</a></li>
+    <li><a href="contactus.html">contact us </a></li>
+</ul>
+    <div class="container">
+                <div class="col-md-4">
+                    <h1 style="color:red;">Registration Form</h1>
+            </div>
+            
+            <div class="col-md-8">
+                
+            
+            <form style="margin-top:3%" action="conect.php" method="post">
+             ENTER YOUR NAME:   <input class="field" type="text" name="fname" placeholder="Enter first name" required=""/><br>
+             ENTER YOUR LAST NAME:   <input class="field" type="text" name="lname" placeholder="Enter last name" required=""/><br>
+              ENTER YOUR EMAIL:  <input class="field" type="email" name="email"placeholder="Enter Email Id" required=""/><br>
+              ENTER YOUR MOBILE NO:  <input class="field" type="text" name="mno"placeholder="Enter Mobile number" required=""/><br>
+              GNEDER: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="radio" id="male" name="gender" value="male">
+                                              <label for="male">Male</label><br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="radio" id="female" name="gender" value="female">
+                                           <label for="female">Female</label><br>
+                                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="radio" id="other" name="gender" value="other">
+                                         <label for="other">Other</label/><br>
+                    Select your purpose for  visiting:
+                            <select  name="purpose"> 
+                      <option value="event">event</option>
+                       <option value="meeting">meeting</option>
+                        option value="select">select</option><
+                         <option value="addmision">Addmision</option>
+                         <option value="addmision">other</option></select><br> 
+Enter date and time  of visiting:<input type="datetime-local" name="edate" required=""/><br>
+                <input  class="field" type="submit" value="submit">
+                
+             </form></div></div>
+
+
+             <div style="margin-top:100px; background-color:red;">
+<h1>address: jaipur national university</h1>
+<p> near Rto </p>
+ <footer style="background-color:black;
+  font-size:20px;
+  margin-bottom:5%;color:white; text-align:center;"> MADE BY :shubham jha | © 2020 Jaipur National University. All Rights Reserved.</footer>
+  </div>
+
+</body>
+</html>
